@@ -1,0 +1,363 @@
+*{
+    margin: 0px ;
+    padding:0px;
+}
+
+
+
+body{
+    background-color: #e5d9cd;
+}
+
+#header {
+    grid-area: header;
+}
+#section {
+    grid-area: section;
+    justify-items: center;
+    align-items: center;
+}
+#pie{
+    grid-area: pie;
+    
+}
+.Menu {
+    font-family: 'Noto Serif', serif;
+    font-size: 10px;
+    background-color: #e5d9cd;
+    color: #68564D;
+    border: #68564D;
+    height: 50px;
+    overflow: visible;
+    position: relative;
+    display: inline-block;
+}
+
+.botonMenu{
+    background-color: #68564D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.menuTitle {
+    display: none;
+    position: absolute;
+    background-color: #e5d9cd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+.menuTitle a{
+    color: #e5d9cd;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.menuTitle a:hover {
+    background-color: #e5d9cd}
+
+.Menu:hover .menuTitle{
+    display:block;
+}
+.Menu:hover .menuTitle{
+    background-color: #68564D;
+}
+
+.tituloindex {
+    font-family: 'WindSong', cursive;
+    text-shadow: #68564D 2px 3px 3px ;
+    background-image: url(https://mejorconsalud.as.com/wp-content/uploads/2015/07/una-copa-de-vino-al-dia-ejercicio-768x512.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #e5d9cd;
+    text-align: center;
+    font-size: 30px;  
+}
+ h3 { 
+    color:#e5d9cd;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-style: italic ;
+ }
+.fondodesection {
+    width: auto;
+    height: auto;;
+    background-image: url(https://www.animalgourmet.com/wp-content/uploads/2019/12/c%C3%B3mo-poner-la-mesa-2-e1577207069911.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.tituloSection{
+    color:#e5d9cd;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    text-shadow: #68564D 2px 3px 3px ;
+    margin-bottom: 10%;
+   
+}
+.tituloPags {
+    font-family: 'WindSong', cursive;
+    text-shadow: #68564D 2px 3px 3px ;
+    background-image: url(https://mejorconsalud.as.com/wp-content/uploads/2015/07/una-copa-de-vino-al-dia-ejercicio-768x512.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+#TiendaTitle{
+    text-align: center;
+    font-family: 'WindSong';
+    color: #68564D;
+}
+#titleSomos {
+    text-align: center;
+    font-family: 'WindSong';
+    color: #68564D;
+    padding-top: 0px;
+}
+
+
+#foto{
+    grid-area: foto;;
+}
+#video{
+    grid-area: video;
+    size-adjust: cover;
+    padding: 0px;
+    
+   
+}
+#somos{
+    grid-area: somos;
+}
+#story{
+    grid-area: story;
+}
+
+
+#donde{
+    grid-area: donde;
+}
+#map{
+    grid-area: map;
+   
+}
+#redes{
+    grid-area: redes;
+}
+#ig{
+    grid-area: ig;
+}
+@media screen and (min-width: 320px){
+    #gridBody{
+        display: grid;
+        height: auto;
+        width: auto;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto 4fr 1fr ;       grid-template-areas: "header" "section" "pie";
+        overflow: auto;
+    }
+
+    #mapa {
+        width: 300px;
+        height: 300px;
+        align-self: center;
+        justify-self: center;
+        overflow: auto;
+    }
+    .tituloindex {
+        height: 800px;
+        margin-bottom: 0px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background-color: #68564D;
+        font-family: 'Noto Serif', serif;
+        color: #e5d9cd;
+        padding-left: 0px;
+    }
+    ul {
+        font-weight: bold;
+        font-size: 11px;
+    }
+    li {
+        font-size: 8px;
+    }
+    #grillaQuienes{
+        color: #68564D;
+        display: grid;
+        grid-template-columns:320px;
+        grid-template-rows: 200px 200px 400px 200px;
+        grid-template-areas: 
+        "somos" "foto""story"
+        "video" ;
+        column-gap: 2px;
+        row-gap: 2px;
+        overflow: auto;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .cartamenu{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40%;
+        font-size: larger;
+    }
+    #TiendaTitle{
+        text-align: center;
+        font-family: 'WindSong';
+        color: #68564D;
+        font-size: large;
+    }
+    .enlaceTienda {
+        font-size:medium;
+
+    }
+    #ig{
+        width: 300px;
+        height: 300px;
+    }
+    #grillaDonde{
+        color: #68564D;
+        display: grid;
+        grid-template-columns:320px;
+        grid-template-rows: 100px 500px 100px 500px;
+        grid-template-areas: "donde" "mapa""redes" "ig";
+        justify-content: center;
+    }
+    .carta{
+        font-family: 'WindSong',cursive;
+        display: flex;
+       flex-direction: column;
+       color: #68564D;
+       background-color:#e5d9cd ;
+       text-align: center;
+       justify-items:center;  
+       justify-content: center;          
+       
+   }
+   .cartamenu{
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       justify-items: space-between;
+       justify-content: space-between;
+       padding-top: 10%;
+       font-size: larger; 
+   }
+}
+
+@media screen and (min-width: 600px){
+    #gridBody{
+        display: grid;
+        height: auto;
+        width: auto;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-areas: "header" "section" "pie";
+    }
+    #mapa {
+        width: 500px;
+        height: 500px;
+        align-self: center;
+        justify-self: center;
+        overflow: auto;
+    }
+    .tituloindex {
+        height: 500px;
+        margin-bottom: 0px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        background-color: #68564D;
+        font-family: 'Noto Serif', serif;
+        color: #e5d9cd;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-top: 5%;
+        align-content: center;
+    }
+    li {
+        font-size: 10px;
+    }
+    #grillaQuienes{
+        color: #68564D;
+        display: grid;
+        grid-template-columns:400px 400px;
+        grid-template-rows: 200px 200px;
+        grid-template-areas: 
+        "somos foto"
+        "video story";
+        column-gap: 2px;
+        row-gap: 2px;
+        overflow: auto;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    #TiendaTitle{
+        text-align: center;
+        font-family: 'WindSong';
+        color: #68564D;
+        font-size: xx-large;
+    }
+    .enlaceTienda {
+        font-size: x-large;
+    }
+    .titleSomos{
+        font-size: xx-large;
+    }
+    #grillaDonde{
+        color: #68564D;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr ;
+        grid-template-areas: 
+        "donde map"
+        "redes ig";
+        column-gap: 2px;
+        row-gap: 2px;
+        justify-content: center;
+        justify-items: center;
+    }
+.carta{
+         font-family: 'WindSong',cursive;
+         display: flex;
+        flex-direction: column;
+        color: #68564D;
+        background-color:#e5d9cd ;
+        text-align: center;
+        justify-items:center;  
+        justify-content: center;          
+        
+    }
+    .cartamenu{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        justify-items: space-between;
+        justify-content: space-between;
+        padding-top: 10%;
+        font-size: larger; 
+    }
+}
