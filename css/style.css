@@ -4,7 +4,6 @@
 }
 
 
-
 body{
     background-image: linear-gradient(#e5d9cd , #ca967b);
 }
@@ -67,16 +66,24 @@ body{
 .tituloindex {
     font-family: 'WindSong', cursive;
     text-shadow: #68564D 2px 3px 3px ;
-    background-image: url(https://mejorconsalud.as.com/wp-content/uploads/2015/07/una-copa-de-vino-al-dia-ejercicio-768x512.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe);
+    height: 600px;
+    background-image: url(https://img.freepik.com/foto-gratis/composicion-plana-vino-laico-copia-espacio_23-2148232187.jpg?w=1380);
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.footer{
+    height: 10%;
+}
 #entintados{
     animation-duration: 2s;
     animation-name: aparecer;
-
+}
+.display-2 {
+    font-family: 'WindSong', cursive;
+    color: #e5d9cd;
+    text-shadow: #68564D 2px 3px 3px ;
 }
 
 @keyframes aparecer {
@@ -104,8 +111,8 @@ h1 {
  }
 .fondodesection {
     width: auto;
-    height: auto;;
-    background-image: url(https://www.animalgourmet.com/wp-content/uploads/2019/12/c%C3%B3mo-poner-la-mesa-2-e1577207069911.jpg);
+    height: 600px;
+    background-image: url(https://img.freepik.com/foto-gratis/botella-vino-tinto-uvas_23-2148232185.jpg?t=st=1655132409~exp=1655133009~hmac=96784a6013fb2654c207106c3c5e6a0125b39cf9401e49b8567e2188812676d9&w=1380);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -180,7 +187,7 @@ h1 {
 #ig{
     grid-area: ig;
 }
-@media screen and (min-width: 320px){
+/**@media screen and (min-width: 320px){
     #gridBody{
         display: grid;
         height: auto;
@@ -382,4 +389,4 @@ h1 {
         padding-top: 10%;
         font-size: larger; 
     }
-}
+}/**
