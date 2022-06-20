@@ -44,7 +44,7 @@ body {
 }
 
 .bgcolor {
-  background-image: url(/assets/winecolor.jpg);
+  background-image: url(../assets/winecolor.jpg);
   background-size: cover;
 }
 
