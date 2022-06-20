@@ -1,392 +1,194 @@
-*{
-    margin: 0px ;
-    padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-
-body{
-    background-image: linear-gradient(#e5d9cd , #ca967b);
+body {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
 }
 
-#header {
-    grid-area: header;
-}
-#section {
-    grid-area: section;
-    justify-items: center;
-    align-items: center;
-}
-#pie{
-    grid-area: pie;
-    
-}
-.Menu {
-    font-family: 'Noto Serif', serif;
-    font-size: 10px;
-    background-color: #e5d9cd;
-    color: #68564D;
-    border: #68564D;
-    height: 50px;
-    overflow: visible;
-    position: relative;
-    display: inline-block;
-}
-
-.botonMenu{
-    background-color: #68564D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-.menuTitle {
-    display: none;
-    position: absolute;
-    background-color: #e5d9cd;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
-}
-.menuTitle a{
-    color: #e5d9cd;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.menuTitle a:hover {
-    background-color: #e5d9cd}
-
-.Menu:hover .menuTitle{
-    display:block;
-}
-.Menu:hover .menuTitle{
-    background-color: #68564D;
+.menu {
+  color: #e5d9cd;
+  background-color: #e5d9cd;
 }
 
 .tituloindex {
-    font-family: 'WindSong', cursive;
-    text-shadow: #68564D 2px 3px 3px ;
-    height: 600px;
-    background-image: url(https://img.freepik.com/foto-gratis/composicion-plana-vino-laico-copia-espacio_23-2148232187.jpg?w=1380);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  font-family: "WindSong", cursive;
+  text-shadow: #68564D 2px 3px 3px;
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #e5d9cd;
+  text-align: center;
+  font-size: 30px;
 }
-.footer{
-    height: 10%;
+
+.tituloindex h3 {
+  color: #e5d9cd;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
 }
-#entintados{
-    animation-duration: 2s;
-    animation-name: aparecer;
+
+.color {
+  color: #e5d9cd;
 }
+
+.bgcolor {
+  background-image: url(/assets/winecolor.jpg);
+  background-size: cover;
+}
+
+.cursiva {
+  font-family: "WindSong", cursive;
+}
+
+#entintados {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
 .display-2 {
-    font-family: 'WindSong', cursive;
-    color: #e5d9cd;
-    text-shadow: #68564D 2px 3px 3px ;
+  font-family: 'WindSong', cursive;
+  color: #e5d9cd;
+  text-shadow: #68564D 2px 3px 3px;
+}
+
+.titulosec {
+  font-family: "WindSong", cursive;
+  color: #e5d9cd;
+  text-shadow: #68564D 2px 3px 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+    font-size: 100px;
+  }
+  100% {
+    opacity: 1;
+    font-size: 30px;
+  }
 }
 
 @keyframes aparecer {
-    0%{
-        opacity: 0;
-        font-size: 100px;
-    }
-    100% {
-        opacity: 1;
-        font-size: 30px;
-    }
-    
+  0% {
+    opacity: 0;
+    font-size: 100px;
+  }
+  100% {
+    opacity: 1;
+    font-size: 30px;
+  }
 }
 
-h1 {
-    color: #e5d9cd;
-    text-align: center;
-    font-size: 30px;  
-}
- h3 { 
-    color:#e5d9cd;
-    text-align: center;
-    font-family: 'Noto Serif', serif;
-    font-style: italic ;
- }
 .fondodesection {
-    width: auto;
-    height: 600px;
-    background-image: url(https://img.freepik.com/foto-gratis/botella-vino-tinto-uvas_23-2148232185.jpg?t=st=1655132409~exp=1655133009~hmac=96784a6013fb2654c207106c3c5e6a0125b39cf9401e49b8567e2188812676d9&w=1380);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-
-}
-.tituloSection{
-    color:#e5d9cd;
-    text-align: center;
-    font-family: 'Noto Serif', serif;
-    font-style: italic;
-    text-shadow: #68564D 2px 3px 3px ;
-    margin-bottom: 10%;
-   
-}
-.tituloPags {
-    font-family: 'WindSong', cursive;
-    text-shadow: #68564D 2px 3px 3px ;
-    background-image: url(https://mejorconsalud.as.com/wp-content/uploads/2015/07/una-copa-de-vino-al-dia-ejercicio-768x512.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe);
-    background-size: cover;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: auto;
+  height: 400px;
+  background-size: cover;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-
-
-
-#TiendaTitle{
-    text-align: center;
-    font-family: 'WindSong';
-    color: #68564D;
+.tituloSection {
+  color: #e5d9cd;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  text-shadow: #68564D 2px 3px 3px;
 }
+
+.mapa {
+  width: 500px;
+  height: 500px;
+}
+
+.footer {
+  height: 250px;
+}
+
+#TiendaTitle {
+  text-align: center;
+  font-family: 'WindSong';
+  color: #68564D;
+}
+
 #titleSomos {
-    text-align: center;
-    font-family: 'WindSong';
-    color: #68564D;
-    padding-top: 0px;
+  text-align: center;
+  font-family: 'WindSong';
+  color: #68564D;
+  padding-top: 0px;
 }
 
-
-#foto{
-    grid-area: foto;;
-}
-#video{
-    grid-area: video;
-    size-adjust: cover;
-    padding: 0px;
-    
-   
-}
-#somos{
-    grid-area: somos;
-}
-#story{
-    grid-area: story;
+#foto {
+  grid-area: foto;
 }
 
-
-#donde{
-    grid-area: donde;
-}
-#map{
-    grid-area: map;
-   
-}
-#redes{
-    grid-area: redes;
-}
-#ig{
-    grid-area: ig;
-}
-/**@media screen and (min-width: 320px){
-    #gridBody{
-        display: grid;
-        height: auto;
-        width: auto;
-        grid-template-columns: 1fr ;
-        grid-template-rows: auto 4fr auto;       grid-template-areas: "header" "section" "pie";
-        overflow: auto;
-    }
-
-    #mapa {
-        width: 300px;
-        height: 300px;
-        align-self: center;
-        justify-self: center;
-        overflow: auto;
-    }
-    .tituloindex {
-        height: 800px;
-        margin-bottom: 0px;
-    }
-    .footer{
-        display: flex;
-        flex-direction: row;
-        background-color: #68564D;
-        font-family: 'Noto Serif', serif;
-        color: #e5d9cd;
-        padding-left: 0px;
-    }
-    ul {
-        font-weight: bold;
-        font-size: 11px;
-    }
-    li {
-        font-size: 8px;
-    }
-    #grillaQuienes{
-        color: #68564D;
-        display: grid;
-        grid-template-columns:320px;
-        grid-template-rows: 200px 200px 400px 200px;
-        grid-template-areas: 
-        "somos" "foto""story"
-        "video" ;
-        column-gap: 2px;
-        row-gap: 2px;
-        overflow: auto;
-        justify-content: center;
-        align-items: stretch;
-    }
-    .cartamenu{
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
-        align-content: center;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
-        padding-top: 40%;
-        font-size: larger;
-    }
-    #TiendaTitle{
-        text-align: center;
-        font-family: 'WindSong';
-        color: #68564D;
-        font-size: large;
-    }
-    .enlaceTienda {
-        font-size:medium;
-
-    }
-    #ig{
-        width: 300px;
-        height: 300px;
-    }
-    #grillaDonde{
-        color: #68564D;
-        display: grid;
-        grid-template-columns:320px;
-        grid-template-rows: 100px 500px 100px 500px;
-        grid-template-areas: "donde" "mapa""redes" "ig";
-        justify-content: center;
-    }
-    .carta{
-        font-family: 'WindSong',cursive;
-        display: flex;
-       flex-direction: column;
-       color: #68564D;
-       background-color:#e5d9cd ;
-       text-align: center;
-       justify-items:center;  
-       justify-content: center;          
-       
-   }
-   .cartamenu{
-       text-align: center;
-       font-family: 'Times New Roman', Times, serif;
-       justify-items: space-between;
-       justify-content: space-between;
-       padding-top: 10%;
-       font-size: larger; 
-   }
+#video {
+  grid-area: video;
+  size-adjust: cover;
+  padding: 0px;
 }
 
-@media screen and (min-width: 600px){
-    #gridBody{
-        display: grid;
-        height: auto;
-        width: auto;
-        grid-template-columns: 1fr ;
-        grid-template-rows: auto 1fr auto;
-        grid-template-areas: "header" "section" "pie";
-    }
-    #mapa {
-        width: 500px;
-        height: 500px;
-        align-self: center;
-        justify-self: center;
-        overflow: auto;
-    }
-    .tituloindex {
-        height: 500px;
-        margin-bottom: 0px;
-    }
-    .footer{
-        display: flex;
-        flex-direction: row;
-        background-color: #68564D;
-        font-family: 'Noto Serif', serif;
-        color: #e5d9cd;
-        justify-content: space-between;
-        font-size: 16px;
-        padding-top: 5%;
-        align-content: center;
-        
-    }
+.menu1 {
+  background-image: url(../assets/menu1.jpg);
+  background-size: cover;
+}
 
-    .footer:hover{
-        font-size: 30px;
-        background-color: #38251b;
-    }
-    li {
-        font-size: 10px;
-    }
-    #grillaQuienes{
-        color: #68564D;
-        display: grid;
-        grid-template-columns:400px 400px;
-        grid-template-rows: 200px 200px;
-        grid-template-areas: 
-        "somos foto"
-        "video story";
-        column-gap: 2px;
-        row-gap: 2px;
-        overflow: auto;
-        justify-items: center;
-        justify-content: center;
-    }
-    
-    #TiendaTitle{
-        text-align: center;
-        font-family: 'WindSong';
-        color: #68564D;
-        font-size: xx-large;
-    }
-    .enlaceTienda {
-        font-size: x-large;
-    }
-    .titleSomos{
-        font-size: xx-large;
-    }
-    #grillaDonde{
-        color: #68564D;
-        display: grid;
-        grid-template-columns:1fr;
-        grid-template-rows: 1fr 1fr ;
-        grid-template-areas: 
-        "donde map"
-        "redes ig";
-        column-gap: 2px;
-        row-gap: 2px;
-        justify-content: center;
-        justify-items: center;
-    }
-.carta{
-         font-family: 'WindSong',cursive;
-         display: flex;
-        flex-direction: column;
-        color: #68564D;
-        text-align: center;
-        justify-items:center;  
-        justify-content: center;          
-        
-    }
-    .cartamenu{
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        justify-items: space-between;
-        justify-content: space-between;
-        padding-top: 10%;
-        font-size: larger; 
-    }
-}/**
+.menu2 {
+  background-image: url(../assets/menu2.jpg);
+  background-size: cover;
+}
+
+.menu3 {
+  background-image: url(../assets/menu3.jpg);
+  background-size: cover;
+}
+
+.menu4 {
+  background-image: url(../assets/menu4.jpg);
+  background-size: cover;
+}
+
+.menu5 {
+  background-image: url(../assets/menu5.jpeg);
+  background-size: cover;
+}
+
+.menu6 {
+  background-image: url(../assets/menu6.jpg);
+  background-size: cover;
+}
+
+.menu7 {
+  background-image: url(../assets/menu7.jpg);
+  background-size: cover;
+}
+
+.menu8 {
+  background-image: url(../assets/menu8.jpg);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,155 @@
+@import "textos";
+
+
+*{
+    margin: 0px ;
+    padding:0px;
+}
+body{
+    background-image: url(../assets/bg.jpg);
+
+    background-size: cover;
+}
+.menu{
+    color: $color1;
+    background-color: $color1;
+}
+
+
+.tituloindex {
+    font-family: $textotitulo;
+    text-shadow: $color2 2px 3px 3px ;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $color1;
+    text-align: center;
+    font-size: 30px; 
+    h3 { color: $color1;
+        text-align: center;
+        font-family: 'Noto Serif', serif;
+        font-style: italic ;
+     }
+}
+.color {
+    color: $color1;
+}
+.bgcolor {
+    background-image: url(/assets/winecolor.jpg);
+    background-size: cover;
+}
+.cursiva{
+    font-family: $textotitulo;
+}
+
+#entintados{
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+.display-2 {
+    font-family: 'WindSong', cursive;
+    color: $color1;
+    text-shadow: $color2 2px 3px 3px ;
+}
+.titulosec {
+    font-family:$textotitulo;
+    color: $color1;
+    text-shadow: $color2 2px 3px 3px ;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        font-size: 100px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 30px;
+    }
+    
+}
+ 
+.fondodesection {
+    width: auto;
+    height: 400px;
+    background-size: cover;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.tituloSection{
+    color:$color1;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    text-shadow: $color2 2px 3px 3px ;
+   
+}
+.mapa{
+    width: 500px;
+    height: 500px;
+}
+.footer{
+    height: 250px;
+}
+
+
+
+
+#TiendaTitle{
+    text-align: center;
+    font-family: 'WindSong';
+    color: #68564D;
+}
+#titleSomos {
+    text-align: center;
+    font-family: 'WindSong';
+    color: #68564D;
+    padding-top: 0px;
+}
+
+
+#foto{
+    grid-area: foto;;
+}
+#video{
+    grid-area: video;
+    size-adjust: cover;
+    padding: 0px;
+}
+.menu1{
+    background-image: url(../assets/menu1.jpg);
+    background-size: cover;
+}
+.menu2{
+    background-image: url(../assets/menu2.jpg);
+    background-size: cover;
+}
+.menu3{
+    background-image: url(../assets/menu3.jpg);
+    background-size: cover;
+}
+.menu4{
+    background-image: url(../assets/menu4.jpg);
+    background-size: cover;
+}
+.menu5{
+    background-image: url(../assets/menu5.jpeg);
+    background-size: cover;
+}
+.menu6{
+    background-image: url(../assets/menu6.jpg);
+    background-size: cover;
+}
+.menu7{
+    background-image: url(../assets/menu7.jpg);
+    background-size: cover;
+}
+.menu8{
+    background-image: url(../assets/menu8.jpg);
+    background-size: cover;
+}

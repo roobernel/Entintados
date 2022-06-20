@@ -16,78 +16,135 @@
 
 
 <body id="gridBody">
-    <header id="header"> 
+  <header id="header"> 
 
-        <div class="collapse row " id="navbarToggleExternalContent">
-           <nav class="sticky-top">
-            <div class="bg-dark p-4">
-              <p class="text-white text-md-start"> 
-                <a href="../index.html">Inicio</a>
-                <a href="../pages/carta.html">Carta</a> 
-                <a href="../pages/mercado.html">Tienda</a>
-                <a href="../pages/quienes.html">Quienes Somos</a>
-                <a href="../pages/donde.html">Donde encontrarnos</a></p>
-            </div>
+    <nav class="navbar bgcolor fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand  cursiva color" href="#">Entintados</a>
+        <button class="navbar-toggler menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbarLabel">
+          <span class="navbar-toggler-icon menu"></span>
+        </button>
+        <div class="offcanvas offcanvas-start bgcolor " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title cursiva color" >Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <nav class="navbar navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
-        <div id="titulo" class="tituloindex row container-fluid">
-            <h1 id="entintados" class="display-1"> Entintados</h1>
-            <h3> Restaurant Tienda</h3> 
-       </div> 
-    </header>
-
-
-<section id="section" class="cartamenu">
-    <ul > <h2 id="TiendaTitle"> Enlaces a nuestras tiendas </h2>
-        <li class="enlaceTienda"> <a href="https://listado.mercadolibre.com.ar/vinos#D[A:vinos]" target="_blank">Bodega</a> </li>
-        <li class="enlaceTienda"> <a href="https://www.pedidosya.com.ar/comidas/empanadas" target="_blank">Comestibles</a></li>           
-         <li class="enlaceTienda"> <a href="https://articulo.mercadolibre.com.ar/MLA-1132756477-box-zuccardi-vino-malbec-y-chocolate-rama-del-turista-regalo-_JM#position=7&search_layout=stack&type=item&tracking_id=ae154649-10ce-4a08-b75d-f154b0880999" target="_blank">Regaleria</a></li>
-        <li class="enlaceTienda"> <a href="https://articulo.mercadolibre.com.ar/MLA-665509425-nam-nam-narda-lepes-planeta-_JM?matt_tool=46319439&matt_word=&matt_source=google&matt_campaign_id=14600917913&matt_ad_group_id=127394558536&matt_match_type=&matt_network=g&matt_device=c&matt_creative=544876793743&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=115505336&matt_product_id=MLA665509425&matt_product_partition_id=1433669517082&matt_target_id=aud-1253629107589:pla-1433669517082&gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CLAYmE1ECuZEaFTvg3THobW6OP0eITD0bTxWfd--t7lw9wv--e9LIYaAnpMEALw_wcB" target="_blank">Libros</a></li>
-            
-    </ul>
-   
-
-</section>
-
-<footer class="bd-footer footer bg-dark text-white py-4 py-md-5 mt-5 bg-light">
-    <div class="container py-4 py-md-5 px-4 px-md-3">
-      <div class="row">
-        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-          <h6>Direccion</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">Avenida Corrientes 1234</li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2 mb-3">
-          <h6>Horarios de atencion</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">Mar a Jue 8hs a 00hs</li>
-            <li class="mb-2">Vie, Sab, Dom y feriados 8hs a 2hs</li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2 mb-3">
-          <h6>Telefonos Reservas</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">+54 11 345 54 444</li>
-            <li class="mb-2">+54 11 443 333 344</li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2 mb-3">
-            <h6>Email</h6>
-            <ul class="list-unstyled">
-                <li class="mb-2">Contacto@entintados.com</li>
-                <li class="mb-2">Sugerencias@entintados.com</li>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item ">
+                <a class="nav-link color "  href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color" href="../pages/donde.html">Donde encontrarnos</a></p>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color" href="../pages/carta.html">Carta</a> </p>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color" href="../pages/mercado.html">Tienda</a> </p>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color " href="../pages/quienes.html">Quienes Somos</a> </p>
+              </li>
             </ul>
           </div>
+        </div>
       </div>
+    </nav>
+  
+      <div class="tituloindex row container-fluid">
+          <h1 id="entintados" class="display-1"> Entintados</h1>
+          <h3> Restaurant Tienda</h3> 
+     </div> 
+  </header>
+
+  <section>
+  <h2 class="titulosec">Enalaces a Tiendas</h2>
+  <div class="album py-5 t">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top menu1 " width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              
+            </svg>
+            <div class="card-body">
+              <a href="https://listado.mercadolibre.com.ar/vinos#D[A:vinos]" target="_blank">Bodega</a> </li>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top menu2" width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </svg>
+            <div class="card-body">
+              <a href="https://www.pedidosya.com.ar/comidas/empanadas" target="_blank">Comestibles</a></li>                        
+               <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top menu3 " width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+            </svg>
+            <div class="card-body">
+              <a class="enlaceTienda"> <a href="https://articulo.mercadolibre.com.ar/MLA-1132756477-box-zuccardi-vino-malbec-y-chocolate-rama-del-turista-regalo-_JM#position=7&search_layout=stack&type=item&tracking_id=ae154649-10ce-4a08-b75d-f154b0880999" target="_blank">Regaleria</a></a>            <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top menu4 " width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+              
+            </svg>
+            <div class="card-body">
+              <a href="https://articulo.mercadolibre.com.ar/MLA-665509425-nam-nam-narda-lepes-planeta-_JM?matt_tool=46319439&matt_word=&matt_source=google&matt_campaign_id=14600917913&matt_ad_group_id=127394558536&matt_match_type=&matt_network=g&matt_device=c&matt_creative=544876793743&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=115505336&matt_product_id=MLA665509425&matt_product_partition_id=1433669517082&matt_target_id=aud-1253629107589:pla-1433669517082&gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CLAYmE1ECuZEaFTvg3THobW6OP0eITD0bTxWfd--t7lw9wv--e9LIYaAnpMEALw_wcB" target="_blank">Libros</a></li>              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <footer class="bd-footer   bgcolor color container-fluid py-4 py-md-5   mt-5">
+    <div class="container py-4 py-md-5 px-4 px-md-3">
+    <div class="row">
+      <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+        <h6>Direccion</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2">Avenida Corrientes 1234</li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h6>Horarios de atencion</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2">Mar a Jue 8hs a 00hs</li>
+          <li class="mb-2">Vie, Sab, Dom y feriados 8hs a 2hs</li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h6>Telefonos Reservas</h6>
+        <ul class="list-unstyled">
+          <li class="mb-2">+54 11 345 54 444</li>
+          <li class="mb-2">+54 11 443 333 344</li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+          <h6>Email</h6>
+          <ul class="list-unstyled">
+              <li class="mb-2">Contacto@entintados.com</li>
+              <li class="mb-2">Sugerencias@entintados.com</li>
+          </ul>
+        </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
