@@ -16,89 +16,111 @@
 
 
 <body id="gridBody">
-    <header id="header"> 
+  <header id="header"> 
 
-        <div class="collapse row " id="navbarToggleExternalContent">
-           <nav class="sticky-top">
-            <div class="bg-dark p-4">
-              <p class="text-white text-md-start"> 
-                <a href="../index.html">Inicio</a>
-                <a href="../pages/carta.html">Carta</a> 
-                <a href="../pages/mercado.html">Tienda</a>
-                <a href="../pages/quienes.html">Quienes Somos</a>
-                <a href="../pages/donde.html">Donde encontrarnos</a></p>
-            </div>
+    <nav class="navbar bgcolor fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand  cursiva color" href="#">Entintados</a>
+        <button class="navbar-toggler menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbarLabel">
+          <span class="navbar-toggler-icon menu"></span>
+        </button>
+        <div class="offcanvas offcanvas-start bgcolor " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title cursiva color" >Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-          <nav class="navbar navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-          </nav>
-        <div id="titulo" class="tituloindex row container-fluid">
-            <h1 id="entintados" class="display-1"> Entintados</h1>
-            <h3> Restaurant Tienda</h3> 
-       </div> 
-    </header>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item ">
+                <a class="nav-link color "  href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color" href="../pages/donde.html">Donde encontrarnos</a></p>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color" href="../pages/carta.html">Carta</a> </p>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color" href="../pages/mercado.html">Tienda</a> </p>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link color " href="../pages/quienes.html">Quienes Somos</a> </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+      <div class="tituloindex row container-fluid">
+          <h1 id="entintados" class="display-1"> Entintados</h1>
+          <h3> Restaurant Tienda</h3> 
+     </div> 
+  </header>
 
     <section id="section">
-        <h2 id="titleSomos">Quienes Somos</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <img id="foto" src="../assets/cocineros.jpg" alt="cocineros">
+      <h2 class="titulosec">Quienes Somos</h2>
 
-            </div>
-            <div class="col-md-6">
-                <article id="somos">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</article>
-            </div>
+
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1 color">Somos<span class="text-muted">It’ll blow your mind.</span></h2>
+            <p class="lead color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+          </div>
+          <div class="col-md-5">
+            <img width="500" height="500" src="../assets/cocineros.jpg" alt="cocineros">
+          </div>
+        </div><div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1 color">Historia </h2>
+            <p class="lead color">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+          </div>
+          <div class="col-md-5">
+            <iframe id="video" width="500" height="500" src="https://www.youtube.com/embed/ZRnIn8IS2JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <iframe id="video" width="auto" height="auto" src="https://www.youtube.com/embed/ZRnIn8IS2JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-md-6">
-                <article id="story">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</article>
-            </div>
-        </div>
-        
-    </section>   
+
+
+
+      
      
 
 
-<footer class="bd-footer footer bg-dark text-white py-4 py-md-5 mt-5 bg-light">
-    <div class="container py-4 py-md-5 px-4 px-md-3">
-      <div class="row">
-        <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-          <h6>Direccion</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">Avenida Corrientes 1234</li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2 mb-3">
-          <h6>Horarios de atencion</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">Mar a Jue 8hs a 00hs</li>
-            <li class="mb-2">Vie, Sab, Dom y feriados 8hs a 2hs</li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2 mb-3">
-          <h6>Telefonos Reservas</h6>
-          <ul class="list-unstyled">
-            <li class="mb-2">+54 11 345 54 444</li>
-            <li class="mb-2">+54 11 443 333 344</li>
-          </ul>
-        </div>
-        <div class="col-6 col-lg-2 mb-3">
-            <h6>Email</h6>
+    <footer class="bd-footer  bgcolor color container-fluid py-4 py-md-5 mt-5">
+      <div class="container py-4 py-md-5 px-4 px-md-3">
+        <div class="row">
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+            <h6>Direccion</h6>
             <ul class="list-unstyled">
-                <li class="mb-2">Contacto@entintados.com</li>
-                <li class="mb-2">Sugerencias@entintados.com</li>
+              <li class="mb-2">Avenida Corrientes 1234</li>
             </ul>
           </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h6>Horarios de atencion</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2">Mar a Jue 8hs a 00hs</li>
+              <li class="mb-2">Vie, Sab, Dom y feriados 8hs a 2hs</li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h6>Telefonos Reservas</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2">+54 11 345 54 444</li>
+              <li class="mb-2">+54 11 443 333 344</li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+              <h6>Email</h6>
+              <ul class="list-unstyled">
+                  <li class="mb-2">Contacto@entintados.com</li>
+                  <li class="mb-2">Sugerencias@entintados.com</li>
+              </ul>
+            </div>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
