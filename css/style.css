@@ -44,7 +44,7 @@ body {
 }
 
 .bgcolor {
-  background-image: url(../assets/winecolor.jpg);
+  background-image: url(/assets/winecolor.jpg);
   background-size: cover;
 }
 
@@ -120,38 +120,6 @@ body {
   text-shadow: #68564D 2px 3px 3px;
 }
 
-.mapa {
-  width: 500px;
-  height: 500px;
-}
-
-.footer {
-  height: 250px;
-}
-
-#TiendaTitle {
-  text-align: center;
-  font-family: 'WindSong';
-  color: #68564D;
-}
-
-#titleSomos {
-  text-align: center;
-  font-family: 'WindSong';
-  color: #68564D;
-  padding-top: 0px;
-}
-
-#foto {
-  grid-area: foto;
-}
-
-#video {
-  grid-area: video;
-  size-adjust: cover;
-  padding: 0px;
-}
-
 .menu1 {
   background-image: url(../assets/menu1.jpg);
   background-size: cover;
@@ -173,7 +141,7 @@ body {
 }
 
 .menu5 {
-  background-image: url(../assets/menu5.jpeg);
+  background-image: url(../assets/menu5.jpg);
   background-size: cover;
 }
 
@@ -189,6 +157,26 @@ body {
 
 .menu8 {
   background-image: url(../assets/menu8.jpg);
+  background-size: cover;
+}
+
+.tienda1 {
+  background-image: url(../assets/tienda1.jpg);
+  background-size: cover;
+}
+
+.tienda2 {
+  background-image: url(../assets/tienda2.jpg);
+  background-size: cover;
+}
+
+.tienda3 {
+  background-image: url(../assets/tienda3.jpg);
+  background-size: cover;
+}
+
+.tienda4 {
+  background-image: url(../assets/tienda4.jpg);
   background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
