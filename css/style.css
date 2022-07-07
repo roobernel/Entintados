@@ -4,6 +4,7 @@
 }
 
 body {
+  height: 120vh;
   background-image: url(../assets/bg.jpg);
   background-size: cover;
 }
@@ -13,10 +14,14 @@ body {
   background-color: #e5d9cd;
 }
 
+#header :hover {
+  color: white;
+}
+
 .tituloindex {
   font-family: "WindSong", cursive;
   text-shadow: #68564D 2px 3px 3px;
-  height: 800px;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +34,7 @@ body {
           justify-content: center;
   color: #e5d9cd;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
 }
 
 .tituloindex h3 {
@@ -37,6 +42,11 @@ body {
   text-align: center;
   font-family: 'Noto Serif', serif;
   font-style: italic;
+}
+
+#mapa, .ImgQuienes {
+  width: 50vh;
+  height: 50vh;
 }
 
 .color {
@@ -59,12 +69,6 @@ body {
           animation-name: aparecer;
 }
 
-.display-2 {
-  font-family: 'WindSong', cursive;
-  color: #e5d9cd;
-  text-shadow: #68564D 2px 3px 3px;
-}
-
 .titulosec {
   font-family: "WindSong", cursive;
   color: #e5d9cd;
@@ -73,7 +77,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 @-webkit-keyframes aparecer {
@@ -83,7 +89,7 @@ body {
   }
   100% {
     opacity: 1;
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -94,8 +100,13 @@ body {
   }
   100% {
     opacity: 1;
-    font-size: 30px;
+    font-size: 40px;
   }
+}
+
+#sectionQuienes {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .fondodesection {
@@ -178,5 +189,10 @@ body {
 .tienda4 {
   background-image: url(../assets/tienda4.jpg);
   background-size: cover;
+}
+
+.footer {
+  height: auto;
+  font-size: smaller;
 }
 /*# sourceMappingURL=style.css.map */
