@@ -45,8 +45,8 @@ body {
 }
 
 #mapa, .ImgQuienes {
-  width: 50vh;
-  height: 50vh;
+  width: 40vh;
+  height: 40vh;
 }
 
 .color {
@@ -192,6 +192,7 @@ body {
 }
 
 .footer {
+  width: 100%;
   height: auto;
   font-size: smaller;
 }
